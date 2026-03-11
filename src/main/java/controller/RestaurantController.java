@@ -1,12 +1,12 @@
-package com.klef.fsad.exam.controller;
+package controller;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import com.klef.fsad.exam.model.Restaurant;
-import com.klef.fsad.exam.service.RestaurantService;
+import model.Restaurant;
+import service.RestaurantService;
 
 @RestController
 @RequestMapping("/restaurant")

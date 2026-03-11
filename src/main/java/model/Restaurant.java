@@ -1,5 +1,4 @@
-package com.klef.fsad.exam.model;
-
+package model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -14,7 +13,6 @@ public class Restaurant
     private String status;
 
     public Restaurant() {}
-
     public int getRid() {
         return rid;
     }
